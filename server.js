@@ -12,7 +12,6 @@ app.use(express.json());
 app.get("/", function (req, res) {
   res.send("Welcome to my hotel");
 });
-
   const personRoutes = require('./routes/personRoutes.js'); 
     app.use('/person', personRoutes);
   
